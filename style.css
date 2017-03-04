@@ -1,10 +1,26 @@
 h1, #numPlayers, #players {
 	text-align: center;
+	margin: 3rem;
+}
+
+#numPlayers h2, #players h2 {
+	margin-bottom: 2rem;
+}
+
+button {
+	height: 5rem;
+	width: 5rem;
+	margin: 1rem;
+	font-size: 3rem;
+	vertical-align: middle;
+	padding: 0;
 }
 
 #gameboard {
 	margin-top: 2rem;
 	position: block;
+	width: 28.125rem;
+	height: 28.125rem;
 }
 
 .boxes {
@@ -17,4 +33,17 @@ h1, #numPlayers, #players {
 
 .gamerow {
 	position: relative;
+}
+
+.fa-tint {
+	color: #3498DB;
+}
+
+.heart {
+	color: #CB4335;
+}
+
+footer {
+	text-align: center;
+	margin-top: 2rem;
 }
